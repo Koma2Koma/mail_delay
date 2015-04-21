@@ -1,8 +1,8 @@
 class MailMailer < ApplicationMailer
-  default from: 'notifications@example.com'
+  default from: 'notifications@example.com'
 
 
   def reminder_email(recipient)
-    mail(to: 'recipient@email.com', subject: 'Minutely Reminder')
+    mail(to: recipient, subject: 'Minutely Reminder')
   end
 end

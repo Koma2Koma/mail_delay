@@ -25,6 +25,7 @@ gem 'sdoc', '~> 0.4.0', group: :doc
 
 gem 'delayed_job_active_record'
 gem 'letter_opener', group: :development
+gem 'daemons'
 
 
 # Use ActiveModel has_secure_password
